@@ -1,0 +1,204 @@
+@import url(reset.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background: #06c1ae;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+}
+.header .left {
+  width: 47px;
+  height: 16px;
+  background: none;
+  position: absolute;
+  left: 10px;
+  top: 17px;
+}
+.header .left span {
+  line-height: 16px;
+}
+.header .left span a {
+  font-size: 16px;
+  color: white;
+}
+.header .left img {
+  margin-left: 2px;
+}
+.header .middl {
+  width: auto;
+  height: 32px;
+  background: #04a595;
+  margin-top: 10px;
+  margin-left: 67px;
+  margin-right: 49px;
+  border-radius: 4px;
+}
+.header .middl img {
+  margin-left: 10px;
+}
+.header .middl .text {
+  width: auto;
+  height: 32px;
+  background: none;
+  border: none;
+  margin-left: 6px;
+  outline: none;
+}
+.header .middl .text::-webkit-input-placeholder {
+  color: #64dcd0;
+}
+.header .right {
+  width: 21px;
+  height: 36px;
+  background: none;
+  position: absolute;
+  right: 15px;
+  top: 9px;
+}
+.header .right span {
+  font-size: 10px;
+  color: white;
+}
+.section {
+  width: 100%;
+  height: 100%;
+  background: #f0efed;
+  margin-top: 50px;
+  overflow: auto;
+}
+.section .top {
+  width: auto;
+  height: 50px;
+  background: none;
+  text-align: center;
+}
+.section .top img {
+  width: auto;
+  height: 50px;
+  background: none;
+}
+.section .content {
+  width: 100%;
+  height: 181px;
+  background: #ffffff;
+  border-bottom: 1px solid #e9e8e6;
+}
+.section .content ul {
+  width: 100%;
+  height: 164px;
+  background: none;
+}
+.section .content ul li {
+  width: 20%;
+  height: 82px;
+  background: none;
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+.section .content ul li span {
+  display: block;
+  color: #686868;
+  margin-top: 9px;
+}
+.section .base {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+.section .base .title {
+  width: 100%;
+  height: 40px;
+  background: none;
+  border-bottom: 1px solid #E9E8E6;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.section .base .title span {
+  font-size: 17px;
+  color: #313131;
+  line-height: 40px;
+}
+.section .base .adv {
+  width: 100%;
+  height: 100px;
+  background: none;
+  border-bottom: 1px solid #E9E8E6;
+  margin-left: 10px;
+  position: relative;
+}
+.section .base .adv .left {
+  width: 90px;
+  height: 83px;
+  background: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  margin-top: 10px;
+}
+.section .base .adv .right {
+  width: 100%;
+  height: 100px;
+  background: none;
+  margin-left: 100px;
+}
+.section .base .adv .right .one {
+  font-size: 14px;
+  color: #313131;
+  margin-top: 10px;
+  display: inline-block;
+}
+.section .base .adv .right .two {
+  color: #8e8e8e;
+}
+.section .base .adv .right .three {
+  margin-top: 25px;
+}
+.section .base .adv .right .three .three_1 {
+  font-size: 14px;
+  color: #10cdaf;
+}
+.section .base .adv .right .three .three_1 a {
+  font-size: 11px;
+  color: #9a9a9a;
+  margin-left: 4px;
+}
+.section .base .adv .right .three .three_2 {
+  font-size: 11px;
+  color: #666666;
+  margin-left: 108px;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
+  border-top: 1px solid #ded5d6;
+}
+.footer ul li {
+  width: 20%;
+  height: 37px;
+  background: none;
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer ul li span {
+  display: block;
+}
+.footer ul .one span {
+  color: #f6596c;
+}
